@@ -10,7 +10,7 @@ class ImageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val gridManager = GridLayoutManager(this, 2)
+        val gridManager = GridLayoutManager(this, 3)
         val recyclerview= findViewById<RecyclerView>(R.id.recyclerView)
         recyclerview.layoutManager=gridManager
         recyclerview.adapter= ImageAdapter(this, getPlayers())
