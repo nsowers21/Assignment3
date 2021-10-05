@@ -23,9 +23,8 @@
         <ImageView
             android:id="@+id/playerPic"
             android:layout_width="match_parent"
-            android:layout_height="250sp"
-            android:scaleType="fitXY"
-             />
+            android:layout_height="150dp"
+            android:scaleType="fitXY" />
 
         <RelativeLayout
             android:layout_width="match_parent"
